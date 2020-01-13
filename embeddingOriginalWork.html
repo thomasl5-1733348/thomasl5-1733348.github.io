@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>First Time Coding</title>
+  </head>
+  <body>
+    <iframe 
+    width="560" height="315" src="https://www.youtube.com/embed/sYk4PE8ykhU?start=180" frameborder="0" 
+    allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+    </iframe>
+<br>
+    <a href="https://www.linkedin.com/in/thomasle1999/" target="_blank">
+      Click to open my linkedin profile
+    </a>
+<br>
+    <style>
+        #map {
+          height: 600px;
+          width: 100%;
+         }
+      </style>
+      <div id="map"></div>
+      <script>
+        function initMap() {
+          var uluru = {lat: 14.315424, lng: 108.339537};
+          var map = new google.maps.Map(
+              document.getElementById('map'), {zoom: 4, center: uluru});
+          var marker = new google.maps.Marker({position: uluru, map: map});
+        }
+      </script>
+    <script
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA9h-EpTlknEXIcZVAlsZ0DyIC8DRXknqk&callback=initMap">
+    </script>
+<br>
+    <object width="400" height="400" data="Updated2019Resume.pdf">
+    </object>
+<br>
+    <video width="300" height="200" controls>
+    <source src="narutoscreaming.mp4" type="video/mp4"/>
+    </video>
+    <audio controls>
+        <source src="narutovoice.mp3"type="audio/mp3">
+    </audio>
+  </body>
+</html>
