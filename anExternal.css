@@ -1,0 +1,20 @@
+#header{
+    font-family: Georgia;
+    font-size: 50px;
+}
+#paragraphfont{
+    font-family: Arial;
+    font-size: 30px;
+}
+img {
+    float: left;
+    border-radius: 50px;
+    width:100px;
+    height:100px;
+    margin:5px;
+}
+
+h1 {
+    font-size: 100px; 
+    text-align: center;
+}
